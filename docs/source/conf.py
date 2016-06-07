@@ -17,7 +17,7 @@ import ast
 import sys
 
 # Load the version
-with open('../../flask-frink/__init__.py') as f:
+with open('../../flask_frink/__init__.py') as f:
     for line in f:
         if line.startswith('__version__'):
             version = ast.parse(line).body[0].value.s
