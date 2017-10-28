@@ -7,8 +7,8 @@
 
 """
 
-from flask.ext.security.datastore import Datastore, UserDatastore
-from flask.ext.security.utils import get_identity_attributes
+from flask_security.datastore import Datastore, UserDatastore
+from flask_security.utils import get_identity_attributes
 
 # Frink
 from frink.errors import NotUniqueError
